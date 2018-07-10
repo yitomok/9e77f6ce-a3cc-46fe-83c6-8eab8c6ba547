@@ -1,0 +1,40 @@
+{
+  "name": "backend-bg",
+  "version": "1.0.0",
+  "description": "Test project",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yitomok/9e77f6ce-a3cc-46fe-83c6-8eab8c6ba547.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "yitomok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yitomok/9e77f6ce-a3cc-46fe-83c6-8eab8c6ba547/issues"
+  },
+  "homepage": "https://github.com/yitomok/9e77f6ce-a3cc-46fe-83c6-8eab8c6ba547#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "joi": "^13.4.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.1.1",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.2.0"
+  }
+}
