@@ -30,6 +30,7 @@ if (config.app.env != 'test') {
 }
 
 app.use('/orders', require('./routes/order.js'))
+app.use('/customers', require('./routes/customer.js'))
 app.use((req, res) => {
     res.json({ 'message': 'welcome' })
 })
